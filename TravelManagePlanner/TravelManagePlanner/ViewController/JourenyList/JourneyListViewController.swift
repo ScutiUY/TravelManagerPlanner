@@ -8,7 +8,7 @@
 import UIKit
 import SnapKit
 
-class JourneyListViewController: UIViewController {
+final class JourneyListViewController: UIViewController {
     
     var journeyListViewModel: JourneyListViewModel!
     

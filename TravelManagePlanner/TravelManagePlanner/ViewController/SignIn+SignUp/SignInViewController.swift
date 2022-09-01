@@ -167,7 +167,6 @@ class SignInViewController: UIViewController {
             const.centerX.equalToSuperview()
             const.width.equalTo(view.snp.width).multipliedBy(0.9)
         }
-        
         logoImageAnchorView.snp.makeConstraints { const in
             const.top.equalToSuperview()
             const.bottom.equalTo(totalPaddingView.snp.centerY).multipliedBy(0.75)
